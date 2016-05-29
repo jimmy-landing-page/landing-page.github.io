@@ -2,7 +2,7 @@
 title: Trading Spaces
 subtitle: The O.G. home-makeover show
 layout: default
-modal-id: 5
+modal-id: 6
 date: 2004-01-02
 img: ts.jpg
 thumbnail: ts-thumbnail.jpg

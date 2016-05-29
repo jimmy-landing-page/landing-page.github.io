@@ -18,24 +18,22 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong>{{ post.client }}</a>
+                                    <strong>{{ post.client }}
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong>{{ post.project-date }}</a>
+                                    <strong>{{ post.project-date }}
                                     </strong>
                                 </li>
-                                <li>What I Did:
-                                    <strong>{{ post.category }}</a>
+                                <li>What I did:
+                                    <strong>{{ post.category }}
                                     </strong>
                                 </li>
-        {% if post.episodes %}
-                                 <li>Run:
-                                    <strong>{{ post.episodes }}</a>
-                                    </strong>
-                                </li>
-        {% endif %}
                             </ul>
+                            <hr />
+                            <div style="text-align:left">
+                            {{ post.content }}
+                            </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

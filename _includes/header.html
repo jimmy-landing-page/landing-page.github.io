@@ -19,17 +19,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Stuff I Do</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Things I've Worked On</a>
+                        <a class="page-scroll" href="#portfolio">What I've Done</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Timeline</a>
-                    </li>
-                   
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -40,21 +33,21 @@
 
     <!-- Header -->
     <header>
-        <div class="container" style="width: 100%; height:95%; background:url(img/header.jpg); no-repeat 0px 0px; background-size: cover;">
-            <div class="intro-text">
-                <div class="intro-lead-in">hello.</div>
-                <div class="intro-heading">Jimmy Little</div>
-                <a href="#services" class="page-scroll btn btn-xl">There's More Down There
-                <br />
-                <i class="fa fa-hand-o-down"></i>
-                    </a>
-                
+        <div class="container">
+            <div class="intro-text" style="background-image: url({{ site.url }}/img/header2.jpg), background-size: cover">
+                <div class="intro-lead-in">Hello!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#portfolio" class="page-scroll btn btn-xl"><i class="fa fa-arrow-down"></i></a>
             </div>
         </div>
     </header>
-<!--
+<div class="card">
+<p>Jimmy's blog has moved!  For links, opinions, and other terribly interesting things, head over to</p>
+<h5><a href="http://www.cocktailsandcoffee.com">Cocktails & Coffee, internet ramblings fueled by adult beverages.</a></h5>  
+</div>
+
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
- -->
+
 

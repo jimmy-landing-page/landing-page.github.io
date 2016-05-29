@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -262,24 +262,28 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-<<<<<<< HEAD
-    background-image: url(img/header-bg.jpg);
-=======
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
->>>>>>> f4a84c0de43816db0c7e7a08d2a45c7344e140ad
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+     text-shadow: 1px 1px 4px rgba(black, 0.6);
 }
 
+
 header .intro-text {
+  background: url(img/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -290,6 +294,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-shadow: 1px 1px 4px rgba(black, 0.6);
 }
 
 header .intro-text .intro-heading {
@@ -299,6 +304,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    text-shadow: 1px 1px 4px rgba(black, 0.6);
 }
 
 @media(min-width:768px) {
@@ -313,6 +319,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        text-shadow: 1px 1px 4px rgba(black, 0.6);
     }
 
     header .intro-text .intro-heading {
@@ -322,6 +329,7 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        text-shadow: 1px 1px 4px rgba(black, 0.6);
     }
 }
 
@@ -355,6 +363,14 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.card {
+    border: 3px solid #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.secondary }};
+    text-align: center;
+    margin: 3em auto;
+    padding: 2em;
+    width: 50%;
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -659,7 +675,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/contact2.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
