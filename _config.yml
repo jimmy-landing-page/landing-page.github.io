@@ -35,3 +35,5 @@ social:
     url: https://www.pinterest.com/jimmylittle
   - title: youtube
     url: https://www.youtube.com/channel/UC5iog8proR-icv1vv48awOQ
+    
+exclude: ["/_site"]    
