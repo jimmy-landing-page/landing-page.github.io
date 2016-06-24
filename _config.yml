@@ -1,27 +1,37 @@
-url: 
-baseurl: 
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-# Site settings
-title: jimmy little
+#url: http://yoursite.com
+title: Jimmy Little
 email: thejimmylittle@gmail.com
-description: "Basic Cable Micro Celebrity&trade;"
+author: Jimmy
+description: Jimmy Little's Landing Page.  This page has links to all the stuff I do around the web.
+copyright: 'Copyright &copy; 2016 jimmy little.'
+credits: ''
 
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jimmylittle
-  - title: facebook
-    url: https://www.facebook.com/Jimmy-Little-99821220015/
-  - title: pinterest
-    url: https://www.pinterest.com/jimmylittle
-  - title: instagram
-    url: https://www.instagram.com/jimmylittle
-  - title: linkedin
-    url: https://www.linkedin.com/in/jimmylittle
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-exclude: ["/OLDER","/vendor"]
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/jimmylittle
+  - title: facebook
+    url: https://www.facebook.com/Jimmy-Little-99821220015
+  - title: instagram
+    url: https://www.instagram.com/jimmylittle
+  - title: linkedin
+    url: https://www.linkedin.com/in/jimmylittle
+  - title: pinterest
+    url: https://www.pinterest.com/jimmylittle
+  - title: youtube
+    url: https://www.youtube.com/channel/UC5iog8proR-icv1vv48awOQ
