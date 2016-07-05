@@ -1,9 +1,0 @@
----
-layout: default
-img: datg.jpg
-category: Services
-title: Now:<br>DATG Specialist
-description:
----
- 
- The Disney-ABC Television Group controls the streaming media apps for Disney Channel, Disney XD, Disney Junior, Freeform, and ABC.  We have apps for iOS, Android, Roku, FireTV, AppleTV, tvOS, and Xbox.
