@@ -2,13 +2,16 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: /landing-page.github.io
-title: Jimmy Little
-email: thejimmylittle@gmail.com
-author: Jimmy
-description: Jimmy Little's Landing Page.  This page has links to all the stuff I do around the web.
-copyright: 'Copyright &copy; 2016 jimmy little.'
-credits: ''
+url: http://yoursite.com
+title: Your Awesome Site
+email: your-email@domain.com
+author: Your Name
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description.
+copyright: 'Copyright &copy; 2015 Your Name. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -24,16 +27,8 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/jimmylittle
-  - title: facebook
-    url: https://www.facebook.com/Jimmy-Little-99821220015
-  - title: instagram
-    url: https://www.instagram.com/jimmylittle
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
   - title: linkedin
-    url: https://www.linkedin.com/in/jimmylittle
-  - title: pinterest
-    url: https://www.pinterest.com/jimmylittle
-  - title: youtube
-    url: https://www.youtube.com/channel/UC5iog8proR-icv1vv48awOQ
-    
-exclude: ["/_site"]    
+    url: 
