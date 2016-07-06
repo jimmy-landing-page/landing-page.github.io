@@ -8,4 +8,4 @@ description:
  
 I've separated my opinionated ramblings from my identity page.  To catch up on my day-to-day thoughs and reactions, [follow me on Twitter](https://www.twitter.com/jimmylittle). For even more Jimmy than you can handle, hop on over to my blog:
  
-### <a href="https://www.cocktailsandcoffee.com"  target="_blank">Cocktails & Coffee - Internet Ramblngs Fueled By Adult Beverages</a>
+### <a href="http://www.cocktailsandcoffee.com"  target="_blank">Cocktails & Coffee - Internet Ramblngs Fueled By Adult Beverages</a>
